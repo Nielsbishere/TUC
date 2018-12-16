@@ -1,0 +1,7 @@
+.vs/
+api/glew/doc/
+api/glfw/docs/
+*.db
+api/glm/doc/
+Release/
+Debug/

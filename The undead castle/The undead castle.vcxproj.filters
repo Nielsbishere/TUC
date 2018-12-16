@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{c1d035ef-2706-4418-b336-f382cb8c5198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi">
+      <UniqueIdentifier>{00b80c37-01d5-428f-9a36-c1cc55b6b05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering">
+      <UniqueIdentifier>{6e889852-b1cd-4dd5-9d09-e47e8a854560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\window">
+      <UniqueIdentifier>{29417490-dde6-4b69-b130-ab45bf47c590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\helper classes">
+      <UniqueIdentifier>{6366415d-67ad-4fa5-8ed1-e8f35cf06f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\states">
+      <UniqueIdentifier>{1650677c-56ba-4916-880e-426145362235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SOIL2">
+      <UniqueIdentifier>{38619b42-e2fa-4a65-af0d-4c501a81beef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\lighting">
+      <UniqueIdentifier>{98b7c93b-27eb-4dee-8657-c745706e3b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\model">
+      <UniqueIdentifier>{f6cb0f83-2395-47d7-be3e-693705cbff82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\texture">
+      <UniqueIdentifier>{4a41bd9a-8018-409a-b43e-a070531c8c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\model\material">
+      <UniqueIdentifier>{5af275b7-7561-4d6e-86b7-01b847fa626a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\world">
+      <UniqueIdentifier>{daa98c2b-9c4c-4687-8a4e-af020726fd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\model\map">
+      <UniqueIdentifier>{1084ccb7-5e02-4be4-bf3e-a64c051f390e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\math">
+      <UniqueIdentifier>{734e369d-16a6-4648-97fa-f2a49410f9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\UI">
+      <UniqueIdentifier>{174c00dc-1a54-4e9c-b60f-e32b540bd224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\math\sorting">
+      <UniqueIdentifier>{493c2729-1287-4424-be12-2809fb7f0ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TUC">
+      <UniqueIdentifier>{70940fb9-8f26-4431-93e8-26382d85d023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\world\Entity">
+      <UniqueIdentifier>{cae14aeb-2928-402a-b10b-ac47a6e382fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\rendering\text">
+      <UniqueIdentifier>{1bec7c35-a922-4610-a1df-1f7e2492d322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\world\Mesh">
+      <UniqueIdentifier>{667e9947-33ef-4413-ad6f-572538c5d599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\osomi\API">
+      <UniqueIdentifier>{43cf6333-6c66-4f0b-b63c-33d7e8de70df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\SOIL2\SOIL\etc1_utils.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\SOIL2\SOIL\image_DXT.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\SOIL2\SOIL\image_helper.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\SOIL2\SOIL\SOIL2.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skyboxfrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="skyboxvert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="uivert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="uifrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="frag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="vert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="uvvert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="uvfrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="TextVert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="textfrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="terrainvert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="terrainfrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="watervert.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="waterfrag.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files\osomi\helper classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryHelper.h">
+      <Filter>Header Files\osomi\helper classes</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyHandler2D.h">
+      <Filter>Header Files\osomi\helper classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\osomi\window</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\osomi\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\osomi\window</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\osomi\window</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\states</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\osomi\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\osomi\rendering\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LightEffect.h">
+      <Filter>Header Files\osomi\rendering\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>Header Files\osomi\rendering\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\osomi\rendering\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\osomi\rendering\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\osomi\rendering\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files\osomi\rendering\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\osomi\rendering\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\osomi\rendering\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\osomi\rendering\model\material</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialLoader.h">
+      <Filter>Header Files\osomi\rendering\model\material</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\osomi\world</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Header Files\osomi\world</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>Header Files\osomi\world</Filter>
+    </ClInclude>
+    <ClInclude Include="TileRenderer.h">
+      <Filter>Header Files\osomi\rendering\model\map</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\osomi\rendering\model\map</Filter>
+    </ClInclude>
+    <ClInclude Include="Raycast.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIHandler.h">
+      <Filter>Header Files\osomi\rendering\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Header Files\osomi\rendering\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayHelper.h">
+      <Filter>Header Files\osomi\helper classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\osomi\math</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapElement.h">
+      <Filter>Header Files\osomi\math\sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Header Files\osomi\math\sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="oiTUC.h">
+      <Filter>Header Files\TUC</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\osomi\rendering\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopInventory.h">
+      <Filter>Header Files\osomi\rendering\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TUCShopInventory.h">
+      <Filter>Header Files\TUC</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObjectPart.h">
+      <Filter>Header Files\osomi\rendering\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedCPP.h">
+      <Filter>Header Files\osomi\helper classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TUCResources.h">
+      <Filter>Header Files\TUC</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Damagable.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Iron.h">
+      <Filter>Header Files\osomi\world\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\osomi\rendering\text</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshWorld.h">
+      <Filter>Header Files\osomi\world\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>Header Files\osomi\API</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterRenderer.h">
+      <Filter>Header Files\osomi\world\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="The undead castle.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Logo\TUC.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
